@@ -12,7 +12,6 @@
 		<mule.version>3.8.3</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
 	</properties>
-
 	<build>
 		<plugins>
 			<plugin>
