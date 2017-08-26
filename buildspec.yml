@@ -4,11 +4,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn -DskipTests
   post_build:
     commands:
       - echo Build completed on `date`
       - mvn package
 artifacts:
   files:
-    - target/my-app-1.0-SNAPSHOT.jar
+    - target/mule-ci-1.0.0-SNAPSHOT.zip
