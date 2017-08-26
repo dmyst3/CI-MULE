@@ -126,7 +126,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
 	<repositories>
           <repository>
             <id>Central</id>
