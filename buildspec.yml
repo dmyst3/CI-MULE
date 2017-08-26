@@ -10,4 +10,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/my-app-1.0-SNAPSHOT.zip
+    - target/mule-ci-1.0.0-SNAPSHOT.zip
