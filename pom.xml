@@ -2,11 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.mycompany.eai</groupId>
-	<artifactId>Ahmad-mule-ci</artifactId>
+	<artifactId>Ahmad-mule-ci-${BuildNumber}</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule</packaging>
 	<name>Mule mule-ci Application</name>
     <properties>
+	        <project.BuildNumber>10000</project.BuildNumber>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<mule.version>3.8.1</mule.version>
