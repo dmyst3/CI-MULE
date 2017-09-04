@@ -1,0 +1,23 @@
+version: '3'
+services:
+  hf-eai-demo-1-dev:
+    image: "mulesoft:ce-3.8.1"
+    build: .
+    ports:
+     - "8081:8081"
+    volumes:
+     - /mule-apps/apps/3.8.1/demo1:/root/mule/apps
+  hf-eai-demo-2-dev:
+    image: "mulesoft:ce-3.8.1"
+    build: .
+    ports:
+     - "8082:8081"
+    volumes:
+     - /mule-apps/apps/3.8.1/demo2:/root/mule/apps
+  hf-eai-demo-3-dev:
+    image: "mulesoft:ce-3.8.1"
+    build: .
+    ports:
+     - "8083:8081"
+    volumes:
+     - /mule-apps/apps/3.8.1/demo3:/root/mule/apps
